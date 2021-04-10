@@ -1,4 +1,4 @@
-# 0x00. Fix my code
+# Fix_My_Code_Challenge
 
 -   Foundations - More!
 -   By Guillaume, CTO at Holberton School
