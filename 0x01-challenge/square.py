@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+""" Class square """
+
 
 class square():
+    """ All methods for square """
 
     width = 0
     height = 0
