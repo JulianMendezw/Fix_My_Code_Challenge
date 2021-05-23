@@ -6,6 +6,7 @@ class Square():
     """ All methods for square """
 
     def __init__(self, *args, **kwargs):
+        """ Constructor """
         self.width = 0
         self.height = 0
         for key, value in kwargs.items():
@@ -16,9 +17,11 @@ class Square():
         return self.width * self.height
 
     def permiter_of_my_square(self):
+        """ Permiter of my square """
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """ Self string representation """
         return "{}/{}".format(self.width, self.height)
 
 
